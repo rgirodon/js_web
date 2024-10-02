@@ -1,4 +1,8 @@
 #container .message {
     color: white;
-    background-color: black;
+    background-color: rgb(40, 109, 49);
+}
+
+.green {
+    color: rgb(40, 109, 49);
 }
