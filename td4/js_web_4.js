@@ -36,6 +36,26 @@ let computeSum = document.getElementById('computeSum');
 computeSum.addEventListener('click', computeSumHandler);
 
 
+
+function computeProductHandler() {
+
+    let product = 1;
+
+    for (let i = 0; i <= inputCounter; i++) {
+
+        product = product * parseInt(document.getElementById('number_' + i).value);
+    }
+
+    let result = document.getElementById('result');
+
+    result.textContent = product;
+}
+
+let computeProduct = document.getElementById('computeProduct');
+
+computeProduct.addEventListener('click', computeProductHandler);
+
+
 function resetForm() {
 
     inputCounter = 0;
